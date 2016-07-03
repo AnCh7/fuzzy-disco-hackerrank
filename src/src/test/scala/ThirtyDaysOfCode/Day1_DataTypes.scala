@@ -1,12 +1,15 @@
 package ThirtyDaysOfCode
 
-class Day1_DataTypes {
+
+import org.scalatest.FunSuite
+
+class Day1_DataTypes extends FunSuite {
 
   object Solution {
 
     import java.util.Scanner
 
-    def main(args: Array[String]): Unit = {
+    def main(args: Array[String]) {
       val i = 4
       val d = 4.0
       val s = "HackerRank "
@@ -37,4 +40,9 @@ class Day1_DataTypes {
     }
   }
 
+  test("Run solution") {
+    Solution.main(null)
+  }
 }
+
+

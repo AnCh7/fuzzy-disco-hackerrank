@@ -1,13 +1,14 @@
 package ThirtyDaysOfCode
 
-class Day0_HelloWorld {
+import org.scalatest.FunSuite
+
+class Day0_HelloWorld extends FunSuite {
 
   object Solution {
 
     import java.util.Scanner
 
-    def main(args: Array[String]): Unit = {
-
+    def main(args: Array[String]) {
       // Create a Scanner object to read input from stdin.
       val scan = new Scanner(System.in)
 
@@ -23,4 +24,8 @@ class Day0_HelloWorld {
     }
   }
 
+  test("Run solution") {
+    Solution.main(null)
+  }
 }
+
