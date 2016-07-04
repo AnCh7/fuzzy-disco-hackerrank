@@ -9,7 +9,6 @@ class Day3_Intro_to_Conditional_Statements extends FunSuite {
     import java.util.Scanner
 
     def isEven(number: Int) = number % 2 == 0
-
     def isOdd(number: Int) = !isEven(number)
 
     def check(n: Int): Unit = n match {
