@@ -1,5 +1,6 @@
 package ThirtyDaysOfCode
 
+import Infrastructure.HackersHelper.{Console, InputStream, StdIn, System}
 import org.scalatest.FunSuite
 
 class Day4_Class_vs_Instance extends FunSuite {
@@ -14,15 +15,15 @@ class Day4_Class_vs_Instance extends FunSuite {
         if (initialAge >= 0) age = initialAge
         else {
           age = 0
-          println("Age is not valid, setting age to 0.")
+          Console.println("Age is not valid, setting age to 0.")
         }
       }
     }
 
     def amIOld(): Unit = {
-      if (age < 13) println("You are young.")
-      else if (age >= 13 && age < 18) println("You are a teenager.")
-      else println("You are old.")
+      if (age < 13) Console.println("You are young.")
+      else if (age >= 13 && age < 18) Console.println("You are a teenager.")
+      else Console.println("You are old.")
     }
 
     def yearPasses(): Unit = {
@@ -30,9 +31,9 @@ class Day4_Class_vs_Instance extends FunSuite {
     }
   }
 
-  import scala.io.StdIn
-
   object Solution {
+
+    //import scala.io.StdIn
 
     def main(args: Array[String]) {
 
@@ -49,12 +50,39 @@ class Day4_Class_vs_Instance extends FunSuite {
         }
 
         person.amIOld()
-        println()
+        Console.println()
       }
     }
   }
 
   test("Run solution") {
+
+    // Injecting input data from HackerRank challenge
+    val inputData = List(
+      "4",
+      "-1",
+      "10",
+      "16",
+      "18"
+    )
+
+    StdIn.setInputData(inputData)
+
+    // Injecting output data from HackerRank challenge
+    val outputData = List(
+      "Age is not valid, setting age to 0.",
+      "You are young.",
+      "You are young.",
+      "You are young.",
+      "You are a teenager.",
+      "You are a teenager.",
+      "You are old.",
+      "You are old.",
+      "You are old."
+    )
+    Console.setOutputData(outputData)
+
+    // Running challenge
     Solution.main(null)
   }
 }
