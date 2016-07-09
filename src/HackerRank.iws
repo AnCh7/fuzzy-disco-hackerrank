@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17dc2211-cd6e-4a3d-bd37-77a918ab7b21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Infrastructure/HackersHelper.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/Common/IRunnable.scala" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/src.iml" afterPath="$PROJECT_DIR$/.idea/modules/src.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day7_Arrays.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HackerRank.iws" afterPath="$PROJECT_DIR$/HackerRank.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day4_Class_vs_Instance.scala" afterPath="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day4_Class_vs_Instance.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day5_Loops.scala" afterPath="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day5_Loops.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day6_Lets_Review.scala" afterPath="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day6_Lets_Review.scala" />
     </list>
     <ignored path="HackerRank.iws" />
@@ -46,14 +43,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Day6_Lets_Review.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Day7_Arrays.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day7_Arrays.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <folding>
+                <element signature="e#26#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transformer.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/Transformer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day6_Lets_Review.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day6_Lets_Review.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="38" column="3" selection-start-line="7" selection-start-column="2" selection-end-line="38" selection-end-column="3" />
+            <state relative-caret-position="1426">
+              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
               <folding>
-                <element signature="e#26#99#0" expanded="true" />
-                <element signature="e#983#1357#0" expanded="false" />
+                <element signature="e#26#78#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,9 +80,21 @@
       <file leaf-file-name="HackersHelper.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Infrastructure/HackersHelper.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+            <state relative-caret-position="177">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day5_Loops.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day5_Loops.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+              <folding>
+                <element signature="e#26#101#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,9 +141,10 @@
         <option value="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day3_Intro_to_Conditional_Statements.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Common/IRunnable.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day5_Loops.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day4_Class_vs_Instance.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Infrastructure/HackersHelper.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day6_Lets_Review.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day4_Class_vs_Instance.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day7_Arrays.scala" />
       </list>
     </option>
   </component>
@@ -314,37 +345,7 @@
       <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\test\asdasdasd" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.Day6_Lets_Review.Run test case 7">
-    <configuration default="false" name="Day4_Class_vs_Instance.Run solution" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="src" />
-      <setting name="path" value="ThirtyDaysOfCode.Day4_Class_vs_Instance" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="Run solution" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Day5_Loops.Run solution" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="src" />
-      <setting name="path" value="ThirtyDaysOfCode.Day5_Loops" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="Run solution" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.Day7_Arrays">
     <configuration default="false" name="Day6_Lets_Review.Run solution" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="src" />
@@ -386,6 +387,36 @@
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="Run test case 7" />
       <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Day7_Arrays.Run solution" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="src" />
+      <setting name="path" value="ThirtyDaysOfCode.Day7_Arrays" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="Run solution" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Day7_Arrays" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="src" />
+      <setting name="path" value="ThirtyDaysOfCode.Day7_Arrays" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
@@ -860,19 +891,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.Day4_Class_vs_Instance.Run solution" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.Day5_Loops.Run solution" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.Day6_Lets_Review.Run solution" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Day4_Class_vs_Instance" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Day6_Lets_Review.Run test case 7" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.Day6_Lets_Review.Run solution" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.Day4_Class_vs_Instance" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.Day6_Lets_Review.Run test case 7" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Day7_Arrays.Run solution" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Day7_Arrays" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Day6_Lets_Review.Run test case 7" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Day6_Lets_Review.Run solution" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Day4_Class_vs_Instance" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Day5_Loops.Run solution" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Day4_Class_vs_Instance.Run solution" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Day7_Arrays" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Day7_Arrays.Run solution" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Day6_Lets_Review.Run test case 7" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Day6_Lets_Review.Run solution" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Day4_Class_vs_Instance" />
       </list>
     </recent_temporary>
   </component>
@@ -929,44 +960,44 @@
       <workItem from="1467612897144" duration="12995000" />
       <workItem from="1467800665684" duration="1182000" />
       <workItem from="1467983580772" duration="1812000" />
-      <workItem from="1468041631890" duration="8574000" />
+      <workItem from="1468041631890" duration="14808000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Day4_Class_vs_Instance - 2016.07.09 at 12h 10m 54s.xml">
-      <configuration name="Day4_Class_vs_Instance" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Day7_Arrays - 2016.07.09 at 13h 52m 24s.xml">
+      <configuration name="Day7_Arrays" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Day4_Class_vs_Instance - 2016.07.09 at 12h 13m 16s.xml">
-      <configuration name="Day4_Class_vs_Instance" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Day7_Arrays - 2016.07.09 at 13h 53m 53s.xml">
+      <configuration name="Day7_Arrays" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Day4_Class_vs_Instance - 2016.07.09 at 12h 14m 12s.xml">
-      <configuration name="Day4_Class_vs_Instance" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Day7_Arrays - 2016.07.09 at 13h 54m 07s.xml">
+      <configuration name="Day7_Arrays" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Day4_Class_vs_Instance - 2016.07.09 at 12h 15m 30s.xml">
-      <configuration name="Day4_Class_vs_Instance" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Day7_Arrays - 2016.07.09 at 13h 54m 33s.xml">
+      <configuration name="Day7_Arrays" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Day6_Lets_Review_Run_solution - 2016.07.09 at 12h 25m 39s.xml">
-      <configuration name="Day6_Lets_Review.Run solution" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Day7_Arrays - 2016.07.09 at 14h 13m 52s.xml">
+      <configuration name="Day7_Arrays" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Day6_Lets_Review_Run_solution - 2016.07.09 at 12h 36m 02s.xml">
-      <configuration name="Day6_Lets_Review.Run solution" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Day7_Arrays_Run_solution - 2016.07.09 at 13h 34m 33s.xml">
+      <configuration name="Day7_Arrays.Run solution" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Day6_Lets_Review_Run_test_case_7 - 2016.07.09 at 12h 31m 38s.xml">
-      <configuration name="Day6_Lets_Review.Run test case 7" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Day7_Arrays_Run_solution - 2016.07.09 at 13h 36m 51s.xml">
+      <configuration name="Day7_Arrays.Run solution" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Day6_Lets_Review_Run_test_case_7 - 2016.07.09 at 12h 33m 20s.xml">
-      <configuration name="Day6_Lets_Review.Run test case 7" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Day7_Arrays_Run_solution - 2016.07.09 at 13h 37m 50s.xml">
+      <configuration name="Day7_Arrays.Run solution" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Day6_Lets_Review_Run_test_case_7 - 2016.07.09 at 12h 35m 44s.xml">
-      <configuration name="Day6_Lets_Review.Run test case 7" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Day7_Arrays_Run_solution - 2016.07.09 at 13h 38m 28s.xml">
+      <configuration name="Day7_Arrays.Run solution" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Day6_Lets_Review_Run_test_case_7 - 2016.07.09 at 12h 37m 36s.xml">
-      <configuration name="Day6_Lets_Review.Run test case 7" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Day7_Arrays_Run_solution - 2016.07.09 at 13h 46m 27s.xml">
+      <configuration name="Day7_Arrays.Run solution" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43562000" />
+    <option name="totallyTimeSpent" value="49796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
@@ -982,7 +1013,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32508072" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32508072" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1042,33 +1073,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day6_Lets_Review.scala</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day6_Lets_Review.scala</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day6_Lets_Review.scala</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/Infrastructure/HackersHelper.scala</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="37" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="ScalaTestRunConfiguration">
@@ -1081,27 +1086,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day2_Operators.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/main/srcs/main-0.13.8-sources.jar!/sbt/Keys.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6601">
-          <caret line="304" column="6" selection-start-line="304" selection-start-column="6" selection-end-line="304" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Day0_HelloWorld.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Day1_DataTypes.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Day2_Operators.scala" />
@@ -1186,13 +1170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/FunSuiteLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/Predef.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1225,14 +1202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/Transformer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day0_HelloWorld.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1257,14 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day3_Intro_to_Conditional_Statements.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/TestWorksheet.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1281,14 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/OutcomeOf.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1297,41 +1250,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day4_Class_vs_Instance.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+          <folding>
+            <element signature="e#26#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day3_Intro_to_Conditional_Statements.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/Engine.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="315" column="21" selection-start-line="315" selection-start-column="21" selection-end-line="315" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/FunSuiteLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="174" column="49" selection-start-line="174" selection-start-column="49" selection-end-line="174" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/Suite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="1121" column="4" selection-start-line="1121" selection-start-column="4" selection-end-line="1121" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Infrastructure/HackersHelper.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/OutcomeOf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day5_Loops.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="53" column="3" selection-start-line="25" selection-start-column="2" selection-end-line="53" selection-end-column="3" />
+        <state relative-caret-position="161">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
             <element signature="e#26#101#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day4_Class_vs_Instance.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day6_Lets_Review.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="1426">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
           <folding>
-            <element signature="e#26#99#0" expanded="true" />
+            <element signature="e#26#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Infrastructure/HackersHelper.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/Transformer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        <state relative-caret-position="161">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day6_Lets_Review.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/ThirtyDaysOfCode/Day7_Arrays.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="38" column="3" selection-start-line="7" selection-start-column="2" selection-end-line="38" selection-end-column="3" />
+        <state relative-caret-position="234">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
-            <element signature="e#26#99#0" expanded="true" />
-            <element signature="e#983#1357#0" expanded="false" />
+            <element signature="e#26#63#0" expanded="true" />
           </folding>
         </state>
       </provider>

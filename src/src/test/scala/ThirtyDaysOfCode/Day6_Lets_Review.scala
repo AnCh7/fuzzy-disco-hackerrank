@@ -1,6 +1,6 @@
 package ThirtyDaysOfCode
 
-import Infrastructure.HackersHelper.{Console, InputStream, StdIn, System}
+import Infrastructure.HackersHelper.{Console, StdIn}
 import org.scalatest.FunSuite
 
 class Day6_Lets_Review extends FunSuite {
