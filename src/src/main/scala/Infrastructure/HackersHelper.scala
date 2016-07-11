@@ -1,35 +1,25 @@
 package Infrastructure
 
+import scala.collection.mutable
+
 object HackersHelper {
 
   object StdIn {
+    private var input: mutable.Queue[String] = mutable.Queue()
+    private def getNext = if (input.isEmpty) "" else input.dequeue
 
-    private var input: List[String] = List()
-
-    private def getNext() = {
-      val elem = input.head
-      input = input.tail
-      elem
-    }
-
-    def setInputData(in: List[String]) = input = in
-    def readInt(): Int = getNext().toInt
-    def readLine() = getNext()
+    def setInputData(in: mutable.Queue[String]) = input = in
+    def readInt(): Int = getNext.toInt
+    def readLine() = getNext
   }
 
   class InputStream {
+    private var input: mutable.Queue[String] = mutable.Queue()
+    private def getNext: String = if (input.isEmpty) "" else input.dequeue
 
-    private var input: List[String] = List()
-
-    private def getNext() = {
-      val elem = input.head
-      input = input.tail
-      elem
-    }
-
-    def setInputData(in: List[String]) = input = in
-    def getNextString(): String = this.getNext()
-    def getNextInt(): Int = getNext().toInt
+    def setInputData(in: mutable.Queue[String]) = input = in
+    def getNextString: String = this.getNext
+    def getNextInt: Int = getNext.toInt
   }
 
   object System {
@@ -40,21 +30,21 @@ object HackersHelper {
   }
 
   class Scanner(in: InputStream) {
-    def nextInt() = in.getNextInt()
-    def nextString() = in.getNextString()
-    def nextLine() = in.getNextString()
+    def nextInt() = in.getNextInt
+    def nextString() = in.getNextString
+    def nextLine() = in.getNextString
   }
 
   object Console {
+    private var output: mutable.Queue[String] = mutable.Queue()
 
-    private var output: List[String] = List()
-
-    def setOutputData(out: List[String]) = output = out
+    def setOutputData(out: mutable.Queue[String]) = output = out
     def println() = {}
     def println(x: Any) = {
-      val elem = output.head
-      output = output.tail
-      assert(x == elem, s"$x not equals $elem")
+      if (output.nonEmpty) {
+        val elem = output.dequeue
+        assert(x.toString == elem, s"$x not equals $elem")
+      }
     }
   }
 

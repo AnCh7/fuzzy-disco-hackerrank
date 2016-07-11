@@ -3,6 +3,8 @@ package ThirtyDaysOfCode
 import Infrastructure.HackersHelper.{Console, StdIn}
 import org.scalatest.FunSuite
 
+import scala.collection.mutable
+
 class Day4_Class_vs_Instance extends FunSuite {
 
   class Person {
@@ -58,7 +60,7 @@ class Day4_Class_vs_Instance extends FunSuite {
   test("Run solution") {
 
     // Injecting input data from HackerRank challenge
-    val inputData = List(
+    val inputData = mutable.Queue(
       "4",
       "-1",
       "10",
@@ -69,7 +71,7 @@ class Day4_Class_vs_Instance extends FunSuite {
     StdIn.setInputData(inputData)
 
     // Injecting output data from HackerRank challenge
-    val outputData = List(
+    val outputData = mutable.Queue(
       "Age is not valid, setting age to 0.",
       "You are young.",
       "You are young.",

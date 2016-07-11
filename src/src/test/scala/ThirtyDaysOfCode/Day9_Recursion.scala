@@ -5,31 +5,27 @@ import org.scalatest.FunSuite
 
 import scala.collection.mutable
 
-class Day7_Arrays extends FunSuite {
+class Day9_Recursion extends FunSuite {
 
   object Solution {
 
-    import scala.collection.mutable.ArrayBuffer
     //import java.util.Scanner
+
+    def factorial(n: Int): Int =
+      if (n == 0) 1
+      else n * factorial(n - 1)
+
+    def factorial_tr(n: Int, accumulator: Int): Int =
+      if (n == 0) accumulator
+      else factorial_tr(n - 1, accumulator * n)
 
     def main(args: Array[String]) {
       val sc = new Scanner(System.in)
-
       val n = sc.nextLine()
       if (!n.isEmpty) {
-        val count = n.toInt
-        if (count <= 1000 && count >= 1) {
-          val arr = new ArrayBuffer[Int](count)
-          val input = sc.nextLine().split(" ")
-          for (elem <- input) {
-            if (!elem.isEmpty) {
-              var i = elem.toInt
-              if (i <= 10000 && i >= 1) {
-                arr += i
-              }
-            }
-          }
-          Console.println(arr.reverse.mkString(" "))
+        val N = n.toInt
+        if (N <= 12 && N >= 1) {
+          Console.println(factorial_tr(N, 1))
         }
       }
     }
@@ -39,8 +35,7 @@ class Day7_Arrays extends FunSuite {
 
     // Injecting input data from HackerRank challenge
     val inputData = mutable.Queue(
-      "4",
-      "1 4 3 2 "
+      "3"
     )
 
     val inputStream = new InputStream()
@@ -49,7 +44,7 @@ class Day7_Arrays extends FunSuite {
 
     // Injecting output data from HackerRank challenge
     val outputData = mutable.Queue(
-      "2 3 4 1"
+      "6"
     )
 
     Console.setOutputData(outputData)

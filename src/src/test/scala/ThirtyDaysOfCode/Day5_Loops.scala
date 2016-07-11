@@ -3,6 +3,8 @@ package ThirtyDaysOfCode
 import Infrastructure.HackersHelper.{Console, InputStream, Scanner, System}
 import org.scalatest.FunSuite
 
+import scala.collection.mutable
+
 class Day5_Loops extends FunSuite {
 
   object Solution {
@@ -26,7 +28,7 @@ class Day5_Loops extends FunSuite {
   test("Run solution") {
 
     // Injecting input data from HackerRank challenge
-    val inputData = List(
+    val inputData = mutable.Queue(
       "2"
     )
 
@@ -35,7 +37,7 @@ class Day5_Loops extends FunSuite {
     System.setIn(inputStream)
 
     // Injecting output data from HackerRank challenge
-    val outputData = List(
+    val outputData = mutable.Queue(
       "2 x 1 = 2",
       "2 x 2 = 4",
       "2 x 3 = 6",
