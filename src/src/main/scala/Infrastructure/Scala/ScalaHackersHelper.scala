@@ -1,8 +1,8 @@
-package Infrastructure
+package Infrastructure.Scala
 
 import scala.collection.mutable
 
-object HackersHelper {
+object ScalaHackersHelper {
 
   object StdIn {
     private var input: mutable.Queue[String] = mutable.Queue()
@@ -23,9 +23,9 @@ object HackersHelper {
   }
 
   object System {
-    private var _in: InputStream = null
+    private var _in: InputStream = _
 
-    def setIn(in: InputStream) = _in = in
+    def setIn(in: InputStream): Unit = _in = in
     def in(): InputStream = _in
   }
 

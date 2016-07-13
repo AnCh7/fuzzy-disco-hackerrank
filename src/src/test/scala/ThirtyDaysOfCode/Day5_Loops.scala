@@ -1,6 +1,6 @@
 package ThirtyDaysOfCode
 
-import Infrastructure.HackersHelper.{Console, InputStream, Scanner, System}
+import Infrastructure.Scala.ScalaHackersHelper.{Console, InputStream, Scanner, System}
 import org.scalatest.FunSuite
 
 import scala.collection.mutable
