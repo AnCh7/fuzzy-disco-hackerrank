@@ -1,6 +1,6 @@
-package ThirtyDaysOfCode
+package hackerrank.thirtydaysofcode.scala
 
-import Infrastructure.Scala.ScalaHackersHelper.{Console, StdIn}
+import hackerrank.helper.scala.{Console, StdIn}
 import org.scalatest.FunSuite
 
 import scala.collection.mutable

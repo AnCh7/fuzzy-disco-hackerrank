@@ -1,31 +1,25 @@
-package ThirtyDaysOfCode
+package hackerrank.thirtydaysofcode.scala
 
-import Infrastructure.Scala.ScalaHackersHelper._
+import hackerrank.helper.scala.{Console, InputStream, Scanner, System}
 import org.scalatest.FunSuite
 
 import scala.collection.mutable
 
-class Day9_Recursion extends FunSuite {
+class Day5_Loops extends FunSuite {
 
   object Solution {
 
-    //import java.util.Scanner
-
-    def factorial(n: Int): Int =
-      if (n == 0) 1
-      else n * factorial(n - 1)
-
-    def factorial_tr(n: Int, accumulator: Int): Int =
-      if (n == 0) accumulator
-      else factorial_tr(n - 1, accumulator * n)
+    // import java.util.Scanner
 
     def main(args: Array[String]) {
+
       val sc = new Scanner(System.in)
-      val n = sc.nextLine()
-      if (!n.isEmpty) {
-        val N = n.toInt
-        if (N <= 12 && N >= 1) {
-          Console.println(factorial_tr(N, 1))
+      val N = sc.nextInt()
+
+      if (N <= 20 && N >= 2) {
+        for (i <- 1 to 10) {
+          val result = N * i
+          Console.println(s"$N x $i = $result")
         }
       }
     }
@@ -35,7 +29,7 @@ class Day9_Recursion extends FunSuite {
 
     // Injecting input data from HackerRank challenge
     val inputData = mutable.Queue(
-      "3"
+      "2"
     )
 
     val inputStream = new InputStream()
@@ -44,9 +38,17 @@ class Day9_Recursion extends FunSuite {
 
     // Injecting output data from HackerRank challenge
     val outputData = mutable.Queue(
-      "6"
+      "2 x 1 = 2",
+      "2 x 2 = 4",
+      "2 x 3 = 6",
+      "2 x 4 = 8",
+      "2 x 5 = 10",
+      "2 x 6 = 12",
+      "2 x 7 = 14",
+      "2 x 8 = 16",
+      "2 x 9 = 18",
+      "2 x 10 = 20"
     )
-
     Console.setOutputData(outputData)
 
     // Running challenge

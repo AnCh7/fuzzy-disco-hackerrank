@@ -1,5 +1,4 @@
-package ThirtyDaysOfCode
-
+package hackerrank.thirtydaysofcode.scala
 
 import org.scalatest.FunSuite
 

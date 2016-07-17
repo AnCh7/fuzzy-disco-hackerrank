@@ -1,4 +1,4 @@
-package ThirtyDaysOfCode
+package hackerrank.thirtydaysofcode.scala
 
 import org.scalatest.FunSuite
 
@@ -13,7 +13,7 @@ class Day0_HelloWorld extends FunSuite {
       val scan = new Scanner(System.in)
 
       // Read a full line of input from stdin and save it to our variable, inputString.
-      var inputString = scan.nextLine()
+      val inputString = scan.nextLine()
 
       // Close the scanner object, because we've finished reading
       // all of the input from stdin needed for this challenge.

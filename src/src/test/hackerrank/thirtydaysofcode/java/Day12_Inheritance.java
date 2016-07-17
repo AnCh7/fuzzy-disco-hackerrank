@@ -1,10 +1,14 @@
-package ThirtyDaysOfCode;
+package hackerrank.thirtydaysofcode.java;
 
+import hackerrank.helper.java.InputStream;
+import hackerrank.helper.java.PrintStream;
+import hackerrank.helper.java.Scanner;
+import hackerrank.helper.java.System;
 import org.junit.Test;
 
-import java.util.*;
-
-import static org.junit.Assert.assertTrue;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 class Person {
 
@@ -62,15 +66,7 @@ class Student extends Person {
     }
 }
 
-public class Day12_Inheritance {
-
-    @Test
-    public void evaluatesExpression() {
-        assertTrue(true);
-    }
-}
-
-class Solution {
+class Day12_Inheritance_Solution {
 
     public static void main(String[] args) {
 
@@ -92,5 +88,40 @@ class Solution {
         Student s = new Student(firstName, lastName, id, testScores);
         s.printPerson();
         System.out.println("Grade: " + s.calculate());
+    }
+}
+
+public class Day12_Inheritance {
+
+    @Test
+    public void runSolution() {
+
+        // Injecting input data from HackerRank challenge
+        List<String> inputData = new ArrayList<>();
+        Collections.addAll(inputData,
+                "Heraldo",
+                "Memelli",
+                "8135627",
+                "2",
+                "100",
+                "80"
+        );
+
+        InputStream inputStream = new InputStream();
+        inputStream.setInputData(inputData);
+        System.setIn(inputStream);
+
+        // Injecting output data from HackerRank challenge
+        List<String> outputData = new ArrayList<>();
+        Collections.addAll(outputData,
+                "Name: Memelli, Heraldo\nID: 8135627",
+                "Grade: O"
+        );
+
+        PrintStream outputStream = new PrintStream();
+        outputStream.setOutputData(outputData);
+        System.setOut(outputStream);
+
+        Day12_Inheritance_Solution.main(null);
     }
 }
