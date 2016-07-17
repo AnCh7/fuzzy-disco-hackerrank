@@ -60,6 +60,7 @@ class Day13_AbstractClasses_Solution {
 
 // Using helper classes for Java
 public class Day13_AbstractClasses {
+
     @Test
     public void runSolution() {
         // Injecting input data from HackerRank challenge

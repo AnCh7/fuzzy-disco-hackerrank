@@ -15,11 +15,21 @@ public final class PrintStream {
     public void println() {
     }
 
-    public void println(Object any) {
-
+    public void print(String any) {
         if (!_output.isEmpty()) {
             String elem = _output.pop();
-            assert Objects.equals(any, elem) : any.toString() + " not equals " + elem;
+            assert Objects.equals(any, elem) : any + " not equals " + elem;
         }
+    }
+
+    public void print(Integer any) {
+        if (!_output.isEmpty()) {
+            String elem = _output.pop();
+            assert Objects.equals(any.toString(), elem) : any.toString() + " not equals " + elem;
+        }
+    }
+
+    public void println(String any) {
+        this.print(any);
     }
 }
