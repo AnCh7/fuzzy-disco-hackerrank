@@ -1,4 +1,4 @@
-package hackerrank.helper.java;
+package hackerrank.helper;
 
 public final class System {
 

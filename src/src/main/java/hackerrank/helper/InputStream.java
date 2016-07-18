@@ -1,4 +1,4 @@
-package hackerrank.helper.java;
+package hackerrank.helper;
 
 import java.util.LinkedList;
 import java.util.List;

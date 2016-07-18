@@ -1,9 +1,9 @@
-package hackerrank.thirtydaysofcode.java;
+package hackerrank.thirtydaysofcode;
 
-import hackerrank.helper.java.InputStream;
-import hackerrank.helper.java.PrintStream;
-import hackerrank.helper.java.Scanner;
-import hackerrank.helper.java.System;
+import hackerrank.helper.InputStream;
+import hackerrank.helper.PrintStream;
+import hackerrank.helper.Scanner;
+import hackerrank.helper.System;
 import org.junit.Test;
 
 import java.util.ArrayList;

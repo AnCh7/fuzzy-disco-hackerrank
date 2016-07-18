@@ -1,4 +1,4 @@
-package hackerrank.helper.java;
+package hackerrank.helper;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -31,5 +31,9 @@ public final class PrintStream {
 
     public void println(String any) {
         this.print(any);
+    }
+
+    public void println(Integer i) {
+        this.print(i);
     }
 }

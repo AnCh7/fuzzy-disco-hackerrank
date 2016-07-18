@@ -2,6 +2,7 @@ package hackerrank.thirtydaysofcode.scala
 
 import hackerrank.helper.scala._
 import org.scalatest.FunSuite
+
 import scala.collection.mutable
 
 class Day10_BinaryNumbers extends FunSuite {
