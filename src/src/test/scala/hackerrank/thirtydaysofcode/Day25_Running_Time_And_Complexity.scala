@@ -17,7 +17,7 @@ class Day25_Running_Time_And_Complexity extends FunSuite {
 
     def isPrime(n: Int): String = {
       if (n <= 1) return "Not prime"
-      val result = n > 1 && Iterator.from(2).takeWhile(d => d * d <= n).forall(n % _ != 0)
+      val result = Iterator.from(2).takeWhile(d => d * d <= n).forall(n % _ != 0)
       if (result) "Prime"
       else "Not prime"
     }
