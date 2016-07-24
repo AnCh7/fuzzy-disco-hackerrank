@@ -38,19 +38,14 @@ class Day4_Class_vs_Instance extends FunSuite {
     //import scala.io.StdIn
 
     def main(args: Array[String]) {
-
       val T = StdIn.readInt()
-
       for (i <- 1 to T) {
-
         val age = StdIn.readInt()
         val person = new Person(age)
         person.amIOld()
-
         for (j <- 1 to 3) {
           person.yearPasses()
         }
-
         person.amIOld()
         Console.println()
       }
