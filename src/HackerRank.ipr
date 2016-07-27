@@ -311,7 +311,10 @@
     </option>
   </component>
   <component name="ScalaCompilerConfiguration">
-    <profile name="SBT 1" modules="hackerrank,src" />
+    <profile name="SBT 1" modules="hackerrank">
+      <option name="implicitConversions" value="true" />
+    </profile>
+    <profile name="SBT 2" modules="src" />
   </component>
   <component name="ScalaSbtSettings">
     <option name="linkedExternalProjectsSettings">
