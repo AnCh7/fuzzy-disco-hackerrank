@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17dc2211-cd6e-4a3d-bd37-77a918ab7b21" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/warmup/Challenge1_Solve_Me_First.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day29_Bitwise_AND.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/src.iml" afterPath="$PROJECT_DIR$/.idea/modules/src.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HackerRank.iws" afterPath="$PROJECT_DIR$/HackerRank.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day28_RegEx_Patterns_and_Intro_to_Databases.scala" afterPath="$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day28_RegEx_Patterns_and_Intro_to_Databases.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/hackerrank/helper/StdIn.scala" afterPath="$PROJECT_DIR$/src/main/scala/hackerrank/helper/StdIn.scala" />
     </list>
     <ignored path="HackerRank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,15 +46,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Day28_RegEx_Patterns_and_Intro_to_Databases.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Day28_RegEx_Patterns_and_Intro_to_Databases.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day28_RegEx_Patterns_and_Intro_to_Databases.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+            <state relative-caret-position="776">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="e#43#86#0" expanded="true" />
-                <element signature="e#1566#2105#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Challenge1_Solve_Me_First.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/warmup/Challenge1_Solve_Me_First.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding>
+                <element signature="e#44#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day5_Loops.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day5_Loops.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StdIn.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/StdIn.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BufferedSource.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/io/BufferedSource.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="85" column="56" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#544#567#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day2_Operators.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day2_Operators.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day3_Intro_to_Conditional_Statements.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day3_Intro_to_Conditional_Statements.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day4_Class_vs_Instance.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day4_Class_vs_Instance.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#43#90#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="System.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/System.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,9 +148,11 @@
       <file leaf-file-name="OutcomeOf.scala" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/OutcomeOf.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="368">
+              <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,9 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/hackerrank/thirtydaysofcode/scala/Day11_2D_Arrays.scala" />
-        <option value="$PROJECT_DIR$/src/test/hackerrank/thirtydaysofcode/scala/Day0_HelloWorld.scala" />
-        <option value="$PROJECT_DIR$/src/main/hackerrank/helper/java/InputStream.java" />
         <option value="$PROJECT_DIR$/src/main/hackerrank/helper/java/StdIn.java" />
         <option value="$PROJECT_DIR$/src/main/hackerrank/helper/java/Console.java" />
         <option value="$PROJECT_DIR$/src/main/hackerrank/helper/java/System.java" />
@@ -101,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/main/hackerrank/helper/java/PrintStream.java" />
         <option value="$PROJECT_DIR$/src/main/scala/hackerrank/helper/Console.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/hackerrank/helper/InputStream.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/hackerrank/helper/StdIn.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/hackerrank/helper/System.scala" />
         <option value="$PROJECT_DIR$/src/main/java/hackerrank/helper/InputStream.java" />
         <option value="$PROJECT_DIR$/src/test/scala/thirtydaysofcode/Day4_Class_vs_Instance.scala" />
@@ -139,6 +226,10 @@
         <option value="$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day27_Testing.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/hackerrank/helper/Scanner.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day28_RegEx_Patterns_and_Intro_to_Databases.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day29_Bitwise_AND.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/warmup/Solve_Me_First.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/hackerrank/helper/StdIn.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/warmup/Challenge1_Solve_Me_First.scala" />
       </list>
     </option>
   </component>
@@ -186,6 +277,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,7 +338,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="hackerrank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="thirtydaysofcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HackerRank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackerrank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="warmup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,9 +414,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,20 +429,12 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\test\hackerrank\thirtydaysofcode\scala" />
-      <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\main\scala" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="hackerrank" />
       <recent name="thirtydaysofcode" />
       <recent name="hackerrank.helper" />
       <recent name="ThirtyDaysOfCode" />
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="hackerrank.thirtydaysofcode" />
-      <recent name="ThirtyDaysOfCode" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\test\java\thirtydaysofcode" />
@@ -326,38 +443,17 @@
       <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\test" />
       <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\test\scala" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hackerrank.algorithms.warmup" />
+      <recent name="hackerrank.thirtydaysofcode" />
+      <recent name="ThirtyDaysOfCode" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\test\hackerrank\thirtydaysofcode\scala" />
+      <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\main\scala" />
+    </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2">
-    <configuration default="false" name="Day26_Nested_Logic.Run solution" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="src" />
-      <setting name="path" value="hackerrank.thirtydaysofcode.scala.Day26_Nested_Logic" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="Run solution" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Day26_Nested_Logic.Run solution 3" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="src" />
-      <setting name="path" value="hackerrank.thirtydaysofcode.scala.Day26_Nested_Logic" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="Run solution 3" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.Challenge1_Solve_Me_First.Run solution">
     <configuration default="false" name="Day27_Testing.Run solution" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="src" />
@@ -398,6 +494,36 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="Run solution 2" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Day29_Bitwise_AND.Run solution" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="src" />
+      <setting name="path" value="hackerrank.thirtydaysofcode.scala.Day29_Bitwise_AND" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="Run solution" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Challenge1_Solve_Me_First.Run solution" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="src" />
+      <setting name="path" value="hackerrank.algorithms.warmup.scala.Challenge1_Solve_Me_First" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="Run solution" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -892,24 +1018,24 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.Day26_Nested_Logic.Run solution" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.Day26_Nested_Logic.Run solution 3" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.Day27_Testing.Run solution" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.Day27_Testing.Run solution" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Day29_Bitwise_AND.Run solution" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Solve_Me_First.Run solution" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Day27_Testing.Run solution" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Day26_Nested_Logic.Run solution" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Day26_Nested_Logic.Run solution 3" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Solve_Me_First.Run solution" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Day29_Bitwise_AND.Run solution" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Day27_Testing.Run solution" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1469715358634" />
+    <option name="lastUpdateTimestamp" value="1469772193527" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -982,30 +1108,13 @@
       <workItem from="1469628299671" duration="1442000" />
       <workItem from="1469642309208" duration="2226000" />
       <workItem from="1469715342285" duration="7067000" />
+      <workItem from="1469772174016" duration="3428000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Day28_RegEx_Patterns_and_Intro_to_Databases_Run_solution_2 - 2016.07.28 at 22h 26m 30s.xml">
-      <configuration name="Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Day28_RegEx_Patterns_and_Intro_to_Databases_Run_solution_2 - 2016.07.28 at 22h 30m 02s.xml">
-      <configuration name="Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Day28_RegEx_Patterns_and_Intro_to_Databases_Run_solution_2 - 2016.07.28 at 22h 33m 17s.xml">
-      <configuration name="Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Day28_RegEx_Patterns_and_Intro_to_Databases_Run_solution_2 - 2016.07.28 at 22h 33m 35s.xml">
-      <configuration name="Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Day28_RegEx_Patterns_and_Intro_to_Databases_Run_solution_2 - 2016.07.28 at 22h 33m 49s.xml">
-      <configuration name="Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Day28_RegEx_Patterns_and_Intro_to_Databases_Run_solution_2 - 2016.07.28 at 22h 34m 28s.xml">
-      <configuration name="Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Day28_RegEx_Patterns_and_Intro_to_Databases_Run_solution_2 - 2016.07.28 at 22h 38m 32s.xml">
-      <configuration name="Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Challenge1_Solve_Me_First_Run_solution - 2016.07.29 at 09h 55m 49s.xml">
+      <configuration name="Challenge1_Solve_Me_First.Run solution" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="Day28_RegEx_Patterns_and_Intro_to_Databases_Run_solution_2 - 2016.07.28 at 22h 39m 10s.xml">
       <configuration name="Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" configurationId="ScalaTestRunConfiguration" />
@@ -1016,9 +1125,27 @@
     <history-entry file="Day28_RegEx_Patterns_and_Intro_to_Databases_Run_solution_2 - 2016.07.28 at 22h 40m 18s.xml">
       <configuration name="Day28_RegEx_Patterns_and_Intro_to_Databases.Run solution 2" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="Day29_Bitwise_AND_Run_solution - 2016.07.29 at 09h 27m 20s.xml">
+      <configuration name="Day29_Bitwise_AND.Run solution" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Day29_Bitwise_AND_Run_solution - 2016.07.29 at 09h 28m 56s.xml">
+      <configuration name="Day29_Bitwise_AND.Run solution" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Day29_Bitwise_AND_Run_solution - 2016.07.29 at 09h 29m 49s.xml">
+      <configuration name="Day29_Bitwise_AND.Run solution" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Day29_Bitwise_AND_Run_solution - 2016.07.29 at 09h 31m 10s.xml">
+      <configuration name="Day29_Bitwise_AND.Run solution" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Day29_Bitwise_AND_Run_solution - 2016.07.29 at 09h 36m 09s.xml">
+      <configuration name="Day29_Bitwise_AND.Run solution" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Day29_Bitwise_AND_Run_solution - 2016.07.29 at 09h 39m 16s.xml">
+      <configuration name="Day29_Bitwise_AND.Run solution" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156432000" />
+    <option name="totallyTimeSpent" value="159860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
@@ -1040,7 +1167,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1932634" sideWeight="0.4918919" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1053,6 +1179,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1673" height="896" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965213" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1170,15 +1297,13 @@
           <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day28_RegEx_Patterns_and_Intro_to_Databases.scala</url>
-          <line>43</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="177" />
+          <url>file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day29_Bitwise_AND.scala</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="178" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="178" />
+      <option name="time" value="182" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="ScalaTestRunConfiguration">
@@ -1194,34 +1319,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar!/scala/collection/immutable/Stack.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/immutable/Stack.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar!/scala/Array.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/SeqLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="622" column="64" selection-start-line="622" selection-start-column="64" selection-end-line="622" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_65/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1412,20 +1509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/System.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day0_HelloWorld.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="3" selection-start-line="6" selection-start-column="2" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day27_Testing.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -1433,41 +1516,6 @@
           <folding>
             <element signature="e#43#86#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day1_DataTypes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day2_Operators.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day3_Intro_to_Conditional_Statements.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="44" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day4_Class_vs_Instance.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day5_Loops.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1490,7 +1538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1704">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1499,7 +1546,7 @@
         <state relative-caret-position="24">
           <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
           <folding>
-            <element signature="e#43#75#0" expanded="true" />
+            <element signature="e#43#75#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1508,7 +1555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1516,7 +1562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1524,23 +1569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/InputStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/Scanner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1560,21 +1588,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/InputStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/Scanner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day29_Bitwise_AND.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day0_HelloWorld.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day1_DataTypes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day2_Operators.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day3_Intro_to_Conditional_Statements.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/System.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/OutcomeOf.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="368">
+          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day28_RegEx_Patterns_and_Intro_to_Databases.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        <state relative-caret-position="776">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="e#43#86#0" expanded="true" />
-            <element signature="e#1566#2105#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/io/BufferedSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="85" column="56" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#544#567#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day5_Loops.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day4_Class_vs_Instance.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#90#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/StdIn.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/warmup/Challenge1_Solve_Me_First.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#44#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
