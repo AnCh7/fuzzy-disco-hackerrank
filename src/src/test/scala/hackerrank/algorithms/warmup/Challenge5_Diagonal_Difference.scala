@@ -39,8 +39,8 @@ class Challenge5_Diagonal_Difference extends FunSuite {
         sum
       }
 
-      val d1 = findDiagonal(0, 0, false)
-      val d2 = findDiagonal(a.length - 1, 0, true)
+      val d1 = findDiagonal(0, 0, reverse = false)
+      val d2 = findDiagonal(a.length - 1, 0, reverse = true)
       Console.println(math.abs(d1 - d2))
     }
   }
