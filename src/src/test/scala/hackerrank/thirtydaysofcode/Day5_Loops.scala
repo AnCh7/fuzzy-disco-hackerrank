@@ -1,10 +1,13 @@
 package hackerrank.thirtydaysofcode.scala
 
 import hackerrank.helper.scala.{Console, InputStream, Scanner, System}
+import org.junit.runner.RunWith
 import org.scalatest.FunSuite
+import org.scalatest.junit.JUnitRunner
 
 import scala.collection.mutable
 
+@RunWith(classOf[JUnitRunner])
 class Day5_Loops extends FunSuite {
 
   object Solution {

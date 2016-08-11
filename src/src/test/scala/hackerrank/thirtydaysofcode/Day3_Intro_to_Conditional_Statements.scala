@@ -1,7 +1,10 @@
 package hackerrank.thirtydaysofcode.scala
 
+import org.junit.runner.RunWith
 import org.scalatest.FunSuite
+import org.scalatest.junit.JUnitRunner
 
+@RunWith(classOf[JUnitRunner])
 class Day3_Intro_to_Conditional_Statements extends FunSuite {
 
   object Solution {
@@ -28,7 +31,7 @@ class Day3_Intro_to_Conditional_Statements extends FunSuite {
     }
   }
 
-  test("Run solution") {
+  ignore("Run solution") {
     Solution.main(null)
   }
 }

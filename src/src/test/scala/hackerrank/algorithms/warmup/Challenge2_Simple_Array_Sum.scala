@@ -16,7 +16,7 @@ class Challenge2_Simple_Array_Sum extends FunSuite {
 
     def main(args: Array[String]) {
       val sc = new Scanner(System.in)
-      sc.nextLine()
+      val N = sc.nextInt()
       val input = sc.nextLine().split(" ").map(x => x.toInt)
       Console.println(input.sum)
     }
@@ -25,7 +25,6 @@ class Challenge2_Simple_Array_Sum extends FunSuite {
   test("Run solution") {
     val inputData = mutable.Queue(
       "6",
-      " ",
       "1 2 3 4 10 11"
     )
 

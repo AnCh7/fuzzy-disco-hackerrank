@@ -1,10 +1,13 @@
 package hackerrank.thirtydaysofcode.scala
 
 import hackerrank.helper.scala.{Console, StdIn}
+import org.junit.runner.RunWith
 import org.scalatest.FunSuite
+import org.scalatest.junit.JUnitRunner
 
 import scala.collection.mutable
 
+@RunWith(classOf[JUnitRunner])
 class Day4_Class_vs_Instance extends FunSuite {
 
   class Person {

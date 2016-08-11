@@ -1,7 +1,10 @@
 package hackerrank.thirtydaysofcode.scala
 
+import org.junit.runner.RunWith
 import org.scalatest.FunSuite
+import org.scalatest.junit.JUnitRunner
 
+@RunWith(classOf[JUnitRunner])
 class Day0_HelloWorld extends FunSuite {
 
   object Solution {
@@ -24,7 +27,7 @@ class Day0_HelloWorld extends FunSuite {
     }
   }
 
-  test("Run solution") {
+  ignore("Run solution") {
     Solution.main(null)
   }
 }
