@@ -8,8 +8,9 @@ class InputStream {
   def setInputData(in: Seq[String]) = in.foreach(x => input.enqueue(x))
   def getNextString: String = this.getNext
   def getNextInt: Int = {
-    val result = this.getNext.split(" ", 2)
+    val result = input.front.split(" ", 2)
     if (result.tail.nonEmpty) input.update(0, result.tail.head)
+    else input.dequeue()
     result.head.toInt
   }
 }
