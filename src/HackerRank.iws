@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17dc2211-cd6e-4a3d-bd37-77a918ab7b21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge1_Kangaroo.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge20_Utopian_Tree.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge3_Angry_Professor.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/src.iml" afterPath="$PROJECT_DIR$/.idea/modules/src.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HackerRank.iws" afterPath="$PROJECT_DIR$/HackerRank.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge3_Angry_Professor.scala" afterPath="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge3_Angry_Professor.scala" />
     </list>
     <ignored path="HackerRank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,22 +44,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Challenge3_Angry_Professor.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Challenge3_Angry_Professor.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge3_Angry_Professor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+            <state relative-caret-position="-299">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="e#52#95#0" expanded="true" />
+                <element signature="e#1197#1557#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Challenge20_Utopian_Tree.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Scanner.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/Scanner.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputStream.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/InputStream.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutcomeOf.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/OutcomeOf.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1702">
+              <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Challenge20_Utopian_Tree.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge20_Utopian_Tree.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
+            <state relative-caret-position="644">
               <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
               <folding>
                 <element signature="e#52#95#0" expanded="true" />
@@ -144,8 +172,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge3.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge20.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge3_Angry.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge3_Angry_Professor.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge20_Utopian_Tree.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge3_Angry_Professor.scala" />
       </list>
     </option>
   </component>
@@ -193,6 +221,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,12 +329,43 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackerrank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HackerRank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,23 +381,12 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\test\hackerrank\thirtydaysofcode\scala" />
-      <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\main\scala" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="hackerrank.helper" />
       <recent name="hackerrank" />
       <recent name="thirtydaysofcode" />
       <recent name="ThirtyDaysOfCode" />
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="hackerrank.algorithms.implementation" />
-      <recent name="hackerrank.helper" />
-      <recent name="hackerrank.algorithms.warmup" />
-      <recent name="hackerrank.algorithms.warmup.scala" />
-      <recent name="hackerrank.thirtydaysofcode" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\test\scala\hackerrank\algorithms\warmup" />
@@ -344,23 +395,19 @@
       <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\test\hackerrank\thirtydaysofcode\java" />
       <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hackerrank.algorithms.implementation" />
+      <recent name="hackerrank.helper" />
+      <recent name="hackerrank.algorithms.warmup" />
+      <recent name="hackerrank.algorithms.warmup.scala" />
+      <recent name="hackerrank.thirtydaysofcode" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\test\hackerrank\thirtydaysofcode\scala" />
+      <recent name="D:\Programming\Repositories\fuzzy-disco-hackerrank\src\src\main\scala" />
+    </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.Challenge3_Angry_Professor.Run solution">
-    <configuration default="false" name="Challenge1_Kangaroo.Run solution 1" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="src" />
-      <setting name="path" value="hackerrank.algorithms.implementation.scala.Challenge1_Kangaroo" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="Run solution 1" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.Challenge3_Angry_Professor.Run solution 4">
     <configuration default="false" name="Challenge1_Kangaroo.Run solution 2" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="src" />
@@ -416,6 +463,21 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="Run solution" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Challenge3_Angry_Professor.Run solution 4" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="src" />
+      <setting name="path" value="hackerrank.algorithms.implementation.scala.Challenge3_Angry_Professor" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="Run solution 4" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -923,24 +985,24 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo.Run solution 1" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo.Run solution 2" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo.Run solution 10" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Challenge3_Angry_Professor.Run solution" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo.Run solution 2" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo.Run solution 10" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Challenge3_Angry_Professor.Run solution" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Challenge3_Angry_Professor.Run solution 4" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Challenge3_Angry_Professor.Run solution" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo.Run solution 10" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo.Run solution 2" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo.Run solution 1" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Challenge3_Angry_Professor.Run solution 4" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Challenge3_Angry_Professor.Run solution" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo.Run solution 10" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Challenge1_Kangaroo.Run solution 2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1470981936988" />
+    <option name="lastUpdateTimestamp" value="1471245812475" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1025,43 +1087,45 @@
       <workItem from="1470940394097" duration="839000" />
       <workItem from="1470975607661" duration="1184000" />
       <workItem from="1470981919836" duration="3666000" />
+      <workItem from="1471243046615" duration="2708000" />
+      <workItem from="1471245798164" duration="738000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Challenge1_Kangaroo - 2016.08.12 at 09h 45m 45s.xml">
-      <configuration name="Challenge1_Kangaroo" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Challenge1_Kangaroo - 2016.08.12 at 09h 48m 38s.xml">
-      <configuration name="Challenge1_Kangaroo" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Challenge1_Kangaroo - 2016.08.12 at 09h 51m 32s.xml">
-      <configuration name="Challenge1_Kangaroo" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Challenge1_Kangaroo_Run_solution_1 - 2016.08.12 at 09h 32m 43s.xml">
-      <configuration name="Challenge1_Kangaroo.Run solution 1" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Challenge1_Kangaroo_Run_solution_1 - 2016.08.12 at 09h 44m 03s.xml">
-      <configuration name="Challenge1_Kangaroo.Run solution 1" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Challenge1_Kangaroo_Run_solution_1 - 2016.08.12 at 09h 45m 13s.xml">
-      <configuration name="Challenge1_Kangaroo.Run solution 1" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Challenge1_Kangaroo_Run_solution_10 - 2016.08.12 at 09h 50m 42s.xml">
-      <configuration name="Challenge1_Kangaroo.Run solution 10" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Challenge1_Kangaroo_Run_solution_2 - 2016.08.12 at 09h 46m 23s.xml">
-      <configuration name="Challenge1_Kangaroo.Run solution 2" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Challenge1_Kangaroo_Run_solution_2 - 2016.08.12 at 09h 48m 14s.xml">
-      <configuration name="Challenge1_Kangaroo.Run solution 2" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Challenge3_Angry_Professor_Run_solution - 2016.08.12 at 10h 04m 24s.xml">
+    <history-entry file="Challenge3_Angry_Professor_Run_solution - 2016.08.15 at 10h 13m 38s.xml">
       <configuration name="Challenge3_Angry_Professor.Run solution" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Challenge3_Angry_Professor_Run_solution - 2016.08.15 at 10h 20m 38s.xml">
+      <configuration name="Challenge3_Angry_Professor.Run solution" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Challenge3_Angry_Professor_Run_solution_4 - 2016.08.15 at 10h 20m 48s.xml">
+      <configuration name="Challenge3_Angry_Professor.Run solution 4" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Challenge3_Angry_Professor_Run_solution_4 - 2016.08.15 at 10h 21m 24s.xml">
+      <configuration name="Challenge3_Angry_Professor.Run solution 4" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Challenge3_Angry_Professor_Run_solution_4 - 2016.08.15 at 10h 22m 05s.xml">
+      <configuration name="Challenge3_Angry_Professor.Run solution 4" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Challenge3_Angry_Professor_Run_solution_4 - 2016.08.15 at 13h 34m 39s.xml">
+      <configuration name="Challenge3_Angry_Professor.Run solution 4" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Challenge3_Angry_Professor_Run_solution_4 - 2016.08.15 at 13h 35m 07s.xml">
+      <configuration name="Challenge3_Angry_Professor.Run solution 4" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Challenge3_Angry_Professor_Run_solution_4 - 2016.08.15 at 13h 35m 26s.xml">
+      <configuration name="Challenge3_Angry_Professor.Run solution 4" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Challenge3_Angry_Professor_Run_solution_4 - 2016.08.15 at 13h 35m 52s.xml">
+      <configuration name="Challenge3_Angry_Professor.Run solution 4" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Challenge3_Angry_Professor_Run_solution_4 - 2016.08.15 at 13h 37m 33s.xml">
+      <configuration name="Challenge3_Angry_Professor.Run solution 4" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223507000" />
+    <option name="totallyTimeSpent" value="226953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
@@ -1081,9 +1145,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.222529" sideWeight="0.4918919" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21093318" sideWeight="0.4918919" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37710086" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1096,6 +1159,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1673" height="896" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965213" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37710086" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1251,7 +1315,7 @@
           <option name="timeStamp" value="286" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="334" />
+      <option name="time" value="350" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1455,13 +1519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/OutcomeOf.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/warmup/Challenge9_Circular_Array_Rotation_Input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1492,13 +1549,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/package.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/InputStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/warmup/Challenge1_Solve_Me_First.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1536,13 +1586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/Scanner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/thirtydaysofcode/Day29_Bitwise_AND.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1555,14 +1598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-          <folding>
-            <element signature="e#365#1381#0" expanded="false" />
-            <element signature="e#1412#1703#0" expanded="false" />
-            <element signature="e#1730#2020#0" expanded="false" />
-            <element signature="e#2047#2339#0" expanded="false" />
-            <element signature="e#2367#2659#0" expanded="false" />
-            <element signature="e#2687#2990#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1570,7 +1605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1578,7 +1612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1596,7 +1629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="872">
           <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1604,24 +1636,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="19" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/InputStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge20_Utopian_Tree.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/hackerrank/helper/Scanner.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <element signature="e#52#95#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="115">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/OutcomeOf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1702">
+          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge3_Angry_Professor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+        <state relative-caret-position="-299">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#52#95#0" expanded="true" />
+            <element signature="e#1197#1557#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/hackerrank/algorithms/implementation/Challenge20_Utopian_Tree.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
             <element signature="e#52#95#0" expanded="true" />
           </folding>
