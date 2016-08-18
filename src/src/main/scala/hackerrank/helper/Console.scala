@@ -14,6 +14,7 @@ object Console {
     if (output.nonEmpty) {
       val elem = output.dequeue
       assert(x.toString == elem, s"$x not equals $elem")
+      Predef.println(s"$x equals $elem")
     }
   }
 }
