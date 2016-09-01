@@ -8,6 +8,8 @@ object Console {
 
   def setOutputData(out: mutable.Queue[String]) = output = out
 
+  def assertIsEmpty() = assert(output.isEmpty)
+
   def println() = {}
 
   def println(x: Any) = {
