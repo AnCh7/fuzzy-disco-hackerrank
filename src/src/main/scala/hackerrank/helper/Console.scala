@@ -8,7 +8,7 @@ object Console {
 
   def setOutputData(out: mutable.Queue[String]) = output = out
 
-  def assertIsEmpty() = assert(output.isEmpty)
+  def assertIsEmpty() = assert(output.isEmpty, "Output is not empty")
 
   def println() = {}
 
