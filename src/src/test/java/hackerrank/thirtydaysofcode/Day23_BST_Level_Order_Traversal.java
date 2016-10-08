@@ -32,12 +32,12 @@ class Day23_BST_Level_Order_Traversal_Solution {
                     strings.add(String.valueOf(tree.right.data));
                 }
             }
-            System.out.println(String.join(" ", strings));
+            System.out().println(String.join(" ", strings));
         }
     }
 
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in());
         int T = sc.nextInt();
         Node root = null;
         while (T-- > 0) {
@@ -66,7 +66,7 @@ public class Day23_BST_Level_Order_Traversal {
         );
 
         InputStream inputStream = new InputStream();
-        inputStream.setInputData(inputData);
+        inputStream.setInputData(scala.collection.JavaConversions.asScalaBuffer(inputData));
         System.setIn(inputStream);
 
         // Injecting output data from HackerRank challenge
@@ -76,7 +76,7 @@ public class Day23_BST_Level_Order_Traversal {
         );
 
         PrintStream outputStream = new PrintStream();
-        outputStream.setOutputData(outputData);
+        outputStream.setOutputData(scala.collection.JavaConversions.asScalaBuffer(outputData));
         System.setOut(outputStream);
 
         Day23_BST_Level_Order_Traversal_Solution.main(null);

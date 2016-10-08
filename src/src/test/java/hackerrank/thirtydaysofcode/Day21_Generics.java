@@ -7,7 +7,7 @@ class Day21_Generics_Solution {
 
     private static void printArray(Object[] array) {
         for (Object o : array) {
-            System.out.println(o.toString());
+            System.out().println(o.toString());
         }
     }
 
@@ -20,7 +20,7 @@ class Day21_Generics_Solution {
         printArray(stringArray);
 
         if (Day21_Generics_Solution.class.getDeclaredMethods().length > 2) {
-            System.out.println("You should only have 1 method named printArray.");
+            System.out().println("You should only have 1 method named printArray.");
         }
     }
 }

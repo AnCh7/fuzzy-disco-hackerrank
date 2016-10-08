@@ -38,7 +38,7 @@ class MyBook extends Book {
 
     @Override
     void display() {
-        System.out.println("Title: " + super.title +
+        System.out().println("Title: " + super.title +
                 "\nAuthor: " + super.author +
                 "\nPrice: " + +_price);
     }
@@ -48,7 +48,7 @@ class Day13_AbstractClasses_Solution {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in());
         String title = sc.nextLine();
         String author = sc.nextLine();
         int price = sc.nextInt();
@@ -72,7 +72,7 @@ public class Day13_AbstractClasses {
         );
 
         InputStream inputStream = new InputStream();
-        inputStream.setInputData(inputData);
+        inputStream.setInputData(scala.collection.JavaConversions.asScalaBuffer(inputData));
         System.setIn(inputStream);
 
         // Injecting output data from HackerRank challenge
@@ -84,7 +84,7 @@ public class Day13_AbstractClasses {
         );
 
         PrintStream outputStream = new PrintStream();
-        outputStream.setOutputData(outputData);
+        outputStream.setOutputData(scala.collection.JavaConversions.asScalaBuffer(outputData));
         System.setOut(outputStream);
 
         Day13_AbstractClasses_Solution.main(null);

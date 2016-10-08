@@ -47,7 +47,7 @@ class Day22_BST_Solution {
 
     public static void main(String args[]) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in());
         int T = sc.nextInt();
         Node root = null;
 
@@ -57,7 +57,7 @@ class Day22_BST_Solution {
         }
 
         int height = getHeight(root);
-        System.out.println(height);
+        System.out().println(height);
     }
 }
 
@@ -80,7 +80,7 @@ public class Day22_BST {
         );
 
         InputStream inputStream = new InputStream();
-        inputStream.setInputData(inputData);
+        inputStream.setInputData(scala.collection.JavaConversions.asScalaBuffer(inputData));
         System.setIn(inputStream);
 
         // Injecting output data from HackerRank challenge
@@ -90,7 +90,7 @@ public class Day22_BST {
         );
 
         PrintStream outputStream = new PrintStream();
-        outputStream.setOutputData(outputData);
+        outputStream.setOutputData(scala.collection.JavaConversions.asScalaBuffer(outputData));
         System.setOut(outputStream);
 
         Day22_BST_Solution.main(null);
@@ -115,7 +115,7 @@ public class Day22_BST {
         );
 
         InputStream inputStream = new InputStream();
-        inputStream.setInputData(inputData);
+        inputStream.setInputData(scala.collection.JavaConversions.asScalaBuffer(inputData));
         System.setIn(inputStream);
 
         // Injecting output data from HackerRank challenge
@@ -125,7 +125,7 @@ public class Day22_BST {
         );
 
         PrintStream outputStream = new PrintStream();
-        outputStream.setOutputData(outputData);
+        outputStream.setOutputData(scala.collection.JavaConversions.asScalaBuffer(outputData));
         System.setOut(outputStream);
 
         Day22_BST_Solution.main(null);

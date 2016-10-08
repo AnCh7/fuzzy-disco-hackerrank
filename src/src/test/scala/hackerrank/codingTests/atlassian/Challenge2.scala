@@ -1,6 +1,6 @@
 package hackerrank.codingTests.atlassian
 
-import hackerrank.helper.scala.{Console, Scanner, _}
+import hackerrank.helper.{Console, Scanner, _}
 import org.junit.runner.RunWith
 import org.scalatest.FunSuite
 import org.scalatest.junit.JUnitRunner

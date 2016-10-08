@@ -2,11 +2,11 @@ package hackerrank.helper
 
 import scala.collection.mutable
 
-object Console {
+class PrintStream {
 
-  private var output: mutable.Queue[String] = mutable.Queue()
+  private val output: mutable.Queue[String] = mutable.Queue()
 
-  def setOutputData(out: mutable.Queue[String]) = output = out
+  def setOutputData(in: Seq[String]) = in.foreach(x => output.enqueue(x))
   def assertIsEmpty() = assert(output.isEmpty, "Output is not empty")
   def println() = {}
   def println(x: Any) = {

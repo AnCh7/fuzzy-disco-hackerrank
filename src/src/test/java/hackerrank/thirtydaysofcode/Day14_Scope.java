@@ -37,7 +37,7 @@ class Day14_Scope_Solution {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in());
         int n = sc.nextInt();
         int[] a = new int[n];
 
@@ -53,7 +53,7 @@ class Day14_Scope_Solution {
 
         Difference difference = new Difference(a);
         difference.computeDifference();
-        System.out.print(difference.maximumDifference);
+        System.out().println(difference.maximumDifference);
     }
 }
 
@@ -72,7 +72,7 @@ public class Day14_Scope {
         );
 
         InputStream inputStream = new InputStream();
-        inputStream.setInputData(inputData);
+        inputStream.setInputData(scala.collection.JavaConversions.asScalaBuffer(inputData));
         System.setIn(inputStream);
 
         // Injecting output data from HackerRank challenge
@@ -82,7 +82,7 @@ public class Day14_Scope {
         );
 
         PrintStream outputStream = new PrintStream();
-        outputStream.setOutputData(outputData);
+        outputStream.setOutputData(scala.collection.JavaConversions.asScalaBuffer(outputData));
         System.setOut(outputStream);
 
         Day14_Scope_Solution.main(null);

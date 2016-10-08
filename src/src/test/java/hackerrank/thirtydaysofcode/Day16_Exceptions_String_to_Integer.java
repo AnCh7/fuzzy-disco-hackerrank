@@ -11,7 +11,7 @@ import java.util.*;
 class Day16_Exceptions_String_to_Integer_Solution {
 
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in());
         String s = sc.next();
         //if (s.length() >= 1 && s.length() <= 10) {
             //Boolean isValid = true;
@@ -23,9 +23,9 @@ class Day16_Exceptions_String_to_Integer_Solution {
             //if (isValid) {
                 try {
                     Integer i = Integer.parseInt(s);
-                    System.out.println(i);
+                    System.out().println(i);
                 } catch (Exception ex) {
-                    System.out.println("Bad String");
+                    System.out().println("Bad String");
                 }
             //}
         //}
@@ -43,7 +43,7 @@ public class Day16_Exceptions_String_to_Integer {
         );
 
         InputStream inputStream = new InputStream();
-        inputStream.setInputData(inputData);
+        inputStream.setInputData(scala.collection.JavaConversions.asScalaBuffer(inputData));
         System.setIn(inputStream);
 
         // Injecting output data from HackerRank challenge
@@ -53,7 +53,7 @@ public class Day16_Exceptions_String_to_Integer {
         );
 
         PrintStream outputStream = new PrintStream();
-        outputStream.setOutputData(outputData);
+        outputStream.setOutputData(scala.collection.JavaConversions.asScalaBuffer(outputData));
         System.setOut(outputStream);
 
         Day16_Exceptions_String_to_Integer_Solution.main(null);
@@ -68,7 +68,7 @@ public class Day16_Exceptions_String_to_Integer {
         );
 
         InputStream inputStream = new InputStream();
-        inputStream.setInputData(inputData);
+        inputStream.setInputData(scala.collection.JavaConversions.asScalaBuffer(inputData));
         System.setIn(inputStream);
 
         // Injecting output data from HackerRank challenge
@@ -78,7 +78,7 @@ public class Day16_Exceptions_String_to_Integer {
         );
 
         PrintStream outputStream = new PrintStream();
-        outputStream.setOutputData(outputData);
+        outputStream.setOutputData(scala.collection.JavaConversions.asScalaBuffer(outputData));
         System.setOut(outputStream);
 
         Day16_Exceptions_String_to_Integer_Solution.main(null);

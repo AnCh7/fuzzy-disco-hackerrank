@@ -1,6 +1,6 @@
 package hackerrank.thirtydaysofcode.scala
 
-import hackerrank.helper.scala._
+import hackerrank.helper._
 import org.junit.runner.RunWith
 import org.scalatest.FunSuite
 import org.scalatest.junit.JUnitRunner

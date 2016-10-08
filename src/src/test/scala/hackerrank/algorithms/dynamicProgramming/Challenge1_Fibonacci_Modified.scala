@@ -1,6 +1,6 @@
 package hackerrank.algorithms.dynamicProgramming.scala
 
-import hackerrank.helper.scala.{Console, _}
+import hackerrank.helper.{Console, _}
 import org.junit.runner.RunWith
 import org.scalatest.FunSuite
 import org.scalatest.junit.JUnitRunner

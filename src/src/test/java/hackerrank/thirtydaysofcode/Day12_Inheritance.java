@@ -25,7 +25,7 @@ class Person {
 
     // Print person data
     public void printPerson() {
-        System.out.println("Name: " + lastName + ", " + firstName + "\nID: " + idNumber);
+        System.out().println("Name: " + lastName + ", " + firstName + "\nID: " + idNumber);
     }
 }
 
@@ -70,7 +70,7 @@ class Day12_Inheritance_Solution {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in());
 
         String firstName = scan.next();
         String lastName = scan.next();
@@ -87,7 +87,7 @@ class Day12_Inheritance_Solution {
 
         Student s = new Student(firstName, lastName, id, testScores);
         s.printPerson();
-        System.out.println("Grade: " + s.calculate());
+        System.out().println("Grade: " + s.calculate());
     }
 }
 
@@ -108,7 +108,7 @@ public class Day12_Inheritance {
         );
 
         InputStream inputStream = new InputStream();
-        inputStream.setInputData(inputData);
+        inputStream.setInputData(scala.collection.JavaConversions.asScalaBuffer(inputData));
         System.setIn(inputStream);
 
         // Injecting output data from HackerRank challenge
@@ -119,7 +119,7 @@ public class Day12_Inheritance {
         );
 
         PrintStream outputStream = new PrintStream();
-        outputStream.setOutputData(outputData);
+        outputStream.setOutputData(scala.collection.JavaConversions.asScalaBuffer(outputData));
         System.setOut(outputStream);
 
         Day12_Inheritance_Solution.main(null);

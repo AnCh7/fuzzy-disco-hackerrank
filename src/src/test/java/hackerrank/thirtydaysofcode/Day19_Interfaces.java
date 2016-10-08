@@ -32,14 +32,14 @@ class Day19_Interfaces_Solution {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in());
         int n = scan.nextInt();
 
         if (n >= 1 && n <= 1000) {
             AdvancedArithmetic myCalculator = new Calculator();
             int sum = myCalculator.divisorSum(n);
-            System.out.println("I implemented: " + myCalculator.getClass().getInterfaces()[0].getName());
-            System.out.println(sum);
+            System.out().println("I implemented: " + myCalculator.getClass().getInterfaces()[0].getName());
+            System.out().println(sum);
         }
         scan.close();
     }
@@ -57,7 +57,7 @@ public class Day19_Interfaces {
         );
 
         InputStream inputStream = new InputStream();
-        inputStream.setInputData(inputData);
+        inputStream.setInputData(scala.collection.JavaConversions.asScalaBuffer(inputData));
         System.setIn(inputStream);
 
         // Injecting output data from HackerRank challenge
@@ -68,7 +68,7 @@ public class Day19_Interfaces {
         );
 
         PrintStream outputStream = new PrintStream();
-        outputStream.setOutputData(outputData);
+        outputStream.setOutputData(scala.collection.JavaConversions.asScalaBuffer(outputData));
         System.setOut(outputStream);
 
         Day19_Interfaces_Solution.main(null);

@@ -1,4 +1,4 @@
-package hackerrank.helper.scala
+package hackerrank.helper
 
 import scala.collection.mutable
 

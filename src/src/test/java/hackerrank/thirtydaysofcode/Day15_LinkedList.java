@@ -41,14 +41,14 @@ class Day15_LinkedList_Solution {
     public static void display(Node head) {
         Node start = head;
         while (start != null) {
-            System.out.print(start.data + " ");
+            System.out().println(start.data + " ");
             start = start.next;
         }
     }
 
     public static void main(String args[]) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in());
         Node head = null;
         int N = sc.nextInt();
 
@@ -77,7 +77,7 @@ public class Day15_LinkedList {
         );
 
         InputStream inputStream = new InputStream();
-        inputStream.setInputData(inputData);
+        inputStream.setInputData(scala.collection.JavaConversions.asScalaBuffer(inputData));
         System.setIn(inputStream);
 
         // Injecting output data from HackerRank challenge
@@ -90,7 +90,7 @@ public class Day15_LinkedList {
         );
 
         PrintStream outputStream = new PrintStream();
-        outputStream.setOutputData(outputData);
+        outputStream.setOutputData(scala.collection.JavaConversions.asScalaBuffer(outputData));
         System.setOut(outputStream);
 
         Day15_LinkedList_Solution.main(null);
